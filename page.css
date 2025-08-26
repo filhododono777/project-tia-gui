@@ -1,0 +1,148 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.preco {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #44190e;
+    display: block;
+}
+
+.card-full {
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.titulo {
+    padding-top: 2rem;
+}
+
+.card-full:hover {
+    transform: scale(1.05);
+}
+
+.total2 {
+    width: 18rem; height: 33rem;
+}
+
+.total {
+    width: 18rem; height: 31rem;
+}
+
+.total:hover{
+    background-color:#44190e11 ;
+}
+
+.total2:hover{
+    background-color:#44190e11 ;
+}
+
+.botao {
+        background-color: #44190e;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: none !important;
+        transition: all linear 160ms;
+        cursor: pointer;
+        margin: 0 !important;
+        border-radius: 0.5rem;
+    }
+    
+.botao:hover {
+        transform: scale(1.05);
+        background-color: #44190e;
+    }
+
+.logo {
+    size: 2rem;
+    color: white;
+}
+
+.texto {
+    align-self: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000000a8;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.texto:hover{
+    color: #44190e;
+    font-weight: bolder;
+}
+
+.bgdrop:hover{
+    background-color: #44190e65;
+}
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+.botaopes {
+    background-color: #44190e;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    border-radius: 0.5rem;
+}
+
+.botaopes:hover {
+    transform: scale(1.05);
+    background-color: #44190e;
+}
+
+.pesquisar {
+    color: #44190e;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none !important;
+    cursor: pointer;
+    margin: 0 !important;
+    border-radius: 0.5rem;
+    height: 2.3rem;
+    padding-left: 0.5rem;
+}
+
+.pesquisar:hover {
+    background-color: #44190e13;
+    color: #44190e;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.pesquisar:focus  {
+    background-color: #44190e13;
+    border-color: #44190e;
+    color: #44190e;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+html, body {
+    overflow-x: hidden;
+}

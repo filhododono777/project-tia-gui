@@ -1,0 +1,96 @@
+/* Estilos para o container que contém os cards */
+.corpog {
+    display: flex;
+    justify-content:space-between; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Para garantir que os cards se ajustem em telas menores */
+	padding-left: 1rem;
+}
+
+/* Estilos para o card */
+.cardg {
+    width: 35rem; /* Tamanho dos cards */
+    height: 430px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Alinhado para baixo */
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Restante do CSS permanece igual... */
+
+.comida {
+	background-image: url('img/comidas/c0001.jpg');
+}
+
+.doce {
+	background-image: url('img/doces/d0001.jpg');
+}
+
+.bebidas {
+	background-image: url('img/bebidas/b0001.jpg');
+}
+
+.porcao {
+	background-image: url('img/porcao/p0001.jpg');
+}
+
+.bebidasalc {
+	background-image: url('img/bebidasalc/ba0001.jpg');
+}
+
+.pizzas {
+	background-image: url('img/pizzas/pz0001.jpg');
+}
+
+.nomeprod {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+}
+
+/* Estilos para o gradiente */
+.gradient {
+width: 100%;
+height: 100%;
+top: 0px;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #44190e 100%);
+position: absolute;
+border-radius: 10px;
+z-index: 0;
+}
+
+/* Estilos para o título */
+.cardg h3 {
+font-size: 24px;
+margin: 0;
+color: #fff;
+/* Cor do texto alterada para branco */
+z-index: 1;
+}
+
+/* Estilos para o conteúdo */
+.cardg p {
+font-size: 16px;
+color: #fff;
+/* Cor do texto alterada para branco */
+z-index: 1;
+}
+
+.cardg:hover {
+    transform: scale(1.05);
+		z-index: 1;
+		color: #44190e;
+}
+
+.pizzabd {
+    height: 25rem;
+}
